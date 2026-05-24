@@ -1,0 +1,19 @@
+[project]
+name = "legal-symmetries"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.104.1",
+    "beautifulsoup4>=4.14.3",
+    "click>=8.4.1",
+    "httpx>=0.28.1",
+    "jinja2>=3.1.6",
+    "markdownify>=1.2.2",
+    "pymupdf>=1.27.2.3",
+    "python-frontmatter>=1.3.0",
+    "pyyaml>=6.0.3",
+    "qdrant-client>=1.18.0",
+    "tqdm>=4.67.3",
+]
