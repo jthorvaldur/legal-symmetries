@@ -3,46 +3,469 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Islamic Law — Legal Symmetries</title>
+  <title>Islamic Law &mdash; Death, Default, and Floor</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
 <header class="hero">
   <div class="container">
-    <h1>Islamic Law</h1>
-    <p class="subtitle">Hanafi, Maliki, Shafi'i, Hanbali, Shia</p>
+    <h1>Islamic Law &mdash; Death, Default, and Floor</h1>
+    <p class="subtitle">Hanafi, Maliki, Shafi'i, Hanbali, Ja'fari (Shia)</p>
   </div>
 </header>
 
-<div class="breadcrumb container">
-  <a href="index.html">Legal Symmetries</a><span class="sep">/</span>Islamic Law
+<div class="breadcrumb">
+  <div class="container">
+    <a href="index.html">Legal Symmetries</a>
+    <span class="sep">/</span>
+    Islamic Law
+  </div>
 </div>
 
 <main class="container">
 
-  <h2>Research In Progress</h2>
+  <h2>System Overview</h2>
 
-  <p>The most rigid forced heirship in existence. The Quran prescribes the fractions — no will can override the fixed shares. The strongest example of divine authority writing the defaults.</p>
+  <p>Islamic inheritance law (<em>ilm al-faraid</em>, &ldquo;the science of obligatory shares&rdquo;) is the most rigid forced heirship system in existence. The Quran directly prescribes exact fractional shares for specific heirs in Surah An-Nisa (4:11&ndash;12, 4:176). These shares cannot be overridden by will &mdash; a testator may only dispose of one-third of the estate by <em>wasiyyah</em> (testamentary bequest), and that bequest cannot benefit an heir who already receives a Quranic share.</p>
+
+  <p>Five major schools of jurisprudence (<em>madhahib</em>) interpret the inheritance rules: four Sunni schools (Hanafi, Maliki, Shafi&rsquo;i, Hanbali) and the Shia Ja&rsquo;fari school. The prescribed shares are identical across schools; differences arise in secondary questions (grandfather vs. siblings, treatment of distant kindred, conditions for exclusion).</p>
+
+  <p>The system is administered differently across the Muslim world. In some jurisdictions (Saudi Arabia, parts of Nigeria), classical <em>fiqh</em> applies directly. In others (Egypt, Malaysia, Indonesia), the principles are codified in statutory form. Turkey abolished Islamic inheritance entirely in 1926, adopting the Swiss Civil Code. Tunisia&rsquo;s Code of Personal Status (1956) is the most progressive reform within the Islamic world.</p>
 
   <blockquote>
-    <strong>Status:</strong> 6 traditions planned. Research and verified statutory citations forthcoming.
+    The person who wrote these defaults is God. The question the project asks &mdash; &ldquo;who wrote the defaults?&rdquo; &mdash; has its most definitive answer here. And precisely because the author is God, the defaults cannot be manipulated by the parties they govern.
   </blockquote>
 
-  <h2>What This Page Will Cover</h2>
+  <h2>Biological Death Defaults &mdash; The Faraid System</h2>
+
+  <h3>The Quranic Verses</h3>
+
+  <p>The primary inheritance rules are found in three verses of Surah An-Nisa:</p>
+
+  <ul>
+    <li><strong>4:11</strong> &mdash; Shares of children and parents: a male receives the share of two females. One daughter alone receives 1/2. Two or more daughters (no sons) receive 2/3. Father and mother each receive 1/6 if the deceased has children.</li>
+    <li><strong>4:12</strong> &mdash; Shares of spouses and siblings: husband receives 1/4 (with children) or 1/2 (without). Wife receives 1/8 (with children) or 1/4 (without).</li>
+    <li><strong>4:176</strong> &mdash; Further rules on <em>kalalah</em> (collateral inheritance when no parents or children exist).</li>
+  </ul>
+
+  <h3>Prescribed Heirs (<em>Dhawu al-Furud</em>)</h3>
 
   <table>
     <thead>
-      <tr><th>Axis</th><th>Analysis</th></tr>
+      <tr>
+        <th>Heir</th>
+        <th>Share (with children)</th>
+        <th>Share (without children)</th>
+        <th>Quranic Basis</th>
+      </tr>
     </thead>
     <tbody>
-      <tr><td><strong>Biological Death Defaults</strong></td><td>Intestacy and succession rules — what happens when someone dies without a will</td></tr>
-      <tr><td><strong>Parental Death Defaults</strong></td><td>Custody, guardianship, and allocation — what happens when a parent is legally "removed"</td></tr>
-      <tr><td><strong>Financial Death Defaults</strong></td><td>Insolvency, bankruptcy, discharge — what happens when someone cannot pay</td></tr>
-      <tr><td><strong>Forced Heirship / Floor</strong></td><td>The minimum rights that survive even the most adverse default</td></tr>
-      <tr><td><strong>Who Wrote the Defaults</strong></td><td>Attribution — who drafted the rules and whose interests they serve</td></tr>
+      <tr>
+        <td><strong>Husband</strong></td>
+        <td>1/4</td>
+        <td>1/2</td>
+        <td>4:12</td>
+      </tr>
+      <tr>
+        <td><strong>Wife (or wives)</strong></td>
+        <td>1/8 (shared)</td>
+        <td>1/4 (shared)</td>
+        <td>4:12</td>
+      </tr>
+      <tr>
+        <td><strong>Daughter (one)</strong></td>
+        <td>1/2</td>
+        <td>&mdash;</td>
+        <td>4:11</td>
+      </tr>
+      <tr>
+        <td><strong>Daughters (two+)</strong></td>
+        <td>2/3 (shared)</td>
+        <td>&mdash;</td>
+        <td>4:11</td>
+      </tr>
+      <tr class="highlight">
+        <td><strong>Son</strong></td>
+        <td>Residuary (<em>asaba</em>) &mdash; takes remainder</td>
+        <td>Residuary</td>
+        <td>4:11</td>
+      </tr>
+      <tr>
+        <td><strong>Father</strong></td>
+        <td>1/6 + residuary</td>
+        <td>Residuary</td>
+        <td>4:11</td>
+      </tr>
+      <tr>
+        <td><strong>Mother</strong></td>
+        <td>1/6</td>
+        <td>1/3</td>
+        <td>4:11</td>
+      </tr>
+      <tr>
+        <td><strong>Full sister (one)</strong></td>
+        <td>&mdash;</td>
+        <td>1/2 (<em>kalalah</em>)</td>
+        <td>4:176</td>
+      </tr>
+      <tr>
+        <td><strong>Full sisters (two+)</strong></td>
+        <td>&mdash;</td>
+        <td>2/3 (shared, <em>kalalah</em>)</td>
+        <td>4:176</td>
+      </tr>
+      <tr>
+        <td><strong>Paternal grandfather</strong></td>
+        <td colspan="2">Substitutes for father (most schools)</td>
+        <td><em>Ijma</em> (consensus)</td>
+      </tr>
+      <tr>
+        <td><strong>Maternal grandmother</strong></td>
+        <td>1/6</td>
+        <td>1/6</td>
+        <td>Hadith</td>
+      </tr>
     </tbody>
   </table>
+
+  <h3>The 2:1 Male-Female Ratio</h3>
+
+  <p>When sons and daughters inherit together, &ldquo;the male shall have the portion of two females&rdquo; (4:11). This applies to sons vs. daughters, full brothers vs. full sisters, and paternal half-brothers vs. paternal half-sisters.</p>
+
+  <p>The ratio does <strong>not</strong> apply universally &mdash; mothers and fathers each receive 1/6 when children exist (equal shares). The husband&rsquo;s share and wife&rsquo;s share are independent fractions, not governed by the 2:1 rule.</p>
+
+  <h3>Mathematical Complications</h3>
+
+  <p><strong><em>&lsquo;Awl</em> (Proportional Reduction):</strong> When prescribed shares sum to more than 1, all shares are reduced proportionally. Example: husband (1/2) + two daughters (2/3) + mother (1/6) = 8/6 &gt; 1. All shares are reduced by multiplying by 6/8.</p>
+
+  <p><strong><em>Radd</em> (Redistribution):</strong> When prescribed shares sum to less than 1, the remainder is redistributed to Quranic heirs proportionally. Schools differ on whether the spouse participates in <em>radd</em>.</p>
+
+  <p>These mathematical operations make Islamic inheritance law one of the most computationally sophisticated legal systems ever devised. Medieval Islamic mathematicians developed algebra (<em>al-jabr</em>) partly to solve inheritance problems.</p>
+
+  <h2>The Wasiyyah (Testamentary Bequest)</h2>
+
+  <p>The <em>wasiyyah</em> is the <strong>only</strong> discretionary element in the entire system. Everything else is mandatory.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Rule</th>
+        <th>Basis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="highlight">
+        <td><strong>Maximum 1/3 of the estate</strong></td>
+        <td>Hadith of Sa&rsquo;d ibn Abi Waqqas (Sahih Bukhari 2742; Sahih Muslim 1628)</td>
+      </tr>
+      <tr>
+        <td>Cannot benefit a Quranic heir</td>
+        <td>Hadith: &ldquo;No bequest to an heir&rdquo; (<em>la wasiyyata li-warith</em>) &mdash; Abu Dawud 2870; Tirmidhi 2120</td>
+      </tr>
+      <tr>
+        <td>Must be executed before debt payment</td>
+        <td>Quran 4:11 (&ldquo;after any bequest or debt&rdquo;) &mdash; but debts take priority in practice</td>
+      </tr>
+      <tr>
+        <td>Can benefit non-heirs, charitable causes</td>
+        <td>No restriction on beneficiary identity (other than heirs)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Differences Between Schools</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Issue</th>
+        <th>Hanafi</th>
+        <th>Maliki</th>
+        <th>Shafi'i</th>
+        <th>Hanbali</th>
+        <th>Ja'fari (Shia)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Primary region</strong></td>
+        <td>South Asia, Turkey, Central Asia</td>
+        <td>North/West Africa</td>
+        <td>Southeast Asia, East Africa</td>
+        <td>Saudi Arabia, Gulf</td>
+        <td>Iran, Iraq, Lebanon</td>
+      </tr>
+      <tr>
+        <td><strong>Grandfather vs. siblings</strong></td>
+        <td>Grandfather excludes siblings</td>
+        <td>Complex sharing rules</td>
+        <td>Grandfather shares with siblings</td>
+        <td>Similar to Shafi'i</td>
+        <td>Grandfather does NOT exclude siblings</td>
+      </tr>
+      <tr>
+        <td><strong>Non-Muslim heirs</strong></td>
+        <td>Cannot inherit</td>
+        <td>Same</td>
+        <td>Same</td>
+        <td>Same</td>
+        <td>Same (consensus)</td>
+      </tr>
+      <tr class="highlight">
+        <td><strong>Wasiyyah to heir</strong></td>
+        <td>Invalid without consent</td>
+        <td>Invalid without consent</td>
+        <td>Invalid without consent</td>
+        <td>Invalid without consent</td>
+        <td><strong>Valid up to 1/3</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Radd (redistribution)</strong></td>
+        <td>Spouse excluded</td>
+        <td>Spouse excluded</td>
+        <td>No radd &mdash; remainder to treasury</td>
+        <td>Spouse may participate</td>
+        <td>Different calculation</td>
+      </tr>
+      <tr>
+        <td><strong>Apostasy</strong></td>
+        <td>Forfeits inheritance</td>
+        <td>Same</td>
+        <td>Same</td>
+        <td>Same</td>
+        <td>Same</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>The Ja'fari (Shia) Difference</h3>
+
+  <p>The most significant divergence: Shia law organizes heirs into three classes (<em>tabaqat</em>) and applies a &ldquo;closer excludes farther&rdquo; rule more strictly. Shia law also allows <em>wasiyyah</em> to benefit an heir (up to 1/3), does not apply <em>&lsquo;awl</em> (if shares exceed 1, the daughter&rsquo;s/sister&rsquo;s share is reduced first), and recognizes a broader range of female-line relatives.</p>
+
+  <h2>Custody (<em>Hadanah</em>) Defaults</h2>
+
+  <p><em>Hadanah</em> (physical custody/caregiving) is distinguished from <em>wilayah</em> (legal guardianship/authority over the child). In classical Islamic law, the mother typically gets <em>hadanah</em> while the father retains <em>wilayah</em>.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>School</th>
+        <th>Mother's Hadanah (Boys)</th>
+        <th>Mother's Hadanah (Girls)</th>
+        <th>Condition for Loss</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Hanafi</strong></td>
+        <td>Until age 7</td>
+        <td>Until age 9 or puberty</td>
+        <td>Mother remarries (to non-<em>mahram</em>)</td>
+      </tr>
+      <tr>
+        <td><strong>Maliki</strong></td>
+        <td>Until puberty</td>
+        <td>Until marriage (consummation)</td>
+        <td>Mother remarries</td>
+      </tr>
+      <tr>
+        <td><strong>Shafi'i</strong></td>
+        <td>Until ~7; child chooses</td>
+        <td>Until ~7; child chooses</td>
+        <td>Mother remarries</td>
+      </tr>
+      <tr>
+        <td><strong>Hanbali</strong></td>
+        <td>Until age 7; child chooses</td>
+        <td>Until age 7; stays with father after</td>
+        <td>Mother remarries</td>
+      </tr>
+      <tr>
+        <td><strong>Ja'fari</strong></td>
+        <td>Until age 2</td>
+        <td>Until age 7</td>
+        <td>Mother remarries</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Key structural feature:</strong> The father&rsquo;s <em>wilayah</em> (legal authority) over the child is permanent and does not transfer to the mother. The father remains the child&rsquo;s legal guardian even when the mother has physical custody. This is a split that Western common law merged into a single &ldquo;custody&rdquo; concept.</p>
+
+  <p><strong>If the mother remarries:</strong> In all Sunni schools, the mother loses <em>hadanah</em> if she remarries a man who is not a <em>mahram</em> of the child. Custody transfers to the maternal grandmother, then to other female relatives in a prescribed order. The father gets <em>hadanah</em> only after all eligible female relatives are exhausted.</p>
+
+  <h2>Financial Obligations</h2>
+
+  <h3>Nafaqah (Maintenance)</h3>
+
+  <p>The husband is obligated to provide <em>nafaqah</em> (maintenance) to his wife and children. This is a unilateral obligation &mdash; the wife has no reciprocal maintenance duty even if she is wealthy.</p>
+
+  <h3>Mahr (Dower)</h3>
+
+  <p>The <em>mahr</em> is the wife&rsquo;s property right, payable by the husband at marriage or deferred. Deferred <em>mahr</em> becomes a debt of the estate upon the husband&rsquo;s death, payable before inheritance distribution.</p>
+
+  <h3>Imprisonment for Debt</h3>
+
+  <p>Classical Islamic jurisprudence permits imprisonment of a debtor who has the ability to pay but refuses (<em>habs al-madin</em>). However, a debtor who is genuinely unable to pay (<em>mu&rsquo;sir</em>) is entitled to respite:</p>
+
+  <blockquote>
+    &ldquo;If the debtor is in difficulty, grant him time till it is easy for him to repay.&rdquo; &mdash; <strong>Quran 2:280</strong>
+  </blockquote>
+
+  <p>This creates a built-in ability-to-pay requirement predating <em>Turner v. Rogers</em> by 1,400 years.</p>
+
+  <h2>Modern Statutory Implementations</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Country</th>
+        <th>Approach</th>
+        <th>Key Legislation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Egypt</strong></td>
+        <td>Codified faraid with modifications</td>
+        <td>Law No. 77 of 1943 (Inheritance); Law No. 71 of 1946 (Testamentary Dispositions)</td>
+      </tr>
+      <tr>
+        <td><strong>Saudi Arabia</strong></td>
+        <td>Direct application of Hanbali fiqh</td>
+        <td>No statutory code; judges apply fiqh directly</td>
+      </tr>
+      <tr>
+        <td><strong>Malaysia</strong></td>
+        <td>Dual system: Islamic for Muslims, civil for others</td>
+        <td>Islamic Family Law (Federal Territories) Act 1984</td>
+      </tr>
+      <tr>
+        <td><strong>Indonesia</strong></td>
+        <td>Codified compilation</td>
+        <td>Kompilasi Hukum Islam (1991)</td>
+      </tr>
+      <tr class="highlight">
+        <td><strong>Turkey</strong></td>
+        <td>ABOLISHED Islamic inheritance (1926)</td>
+        <td>Turkish Civil Code (adopted from Swiss ZGB)</td>
+      </tr>
+      <tr>
+        <td><strong>Tunisia</strong></td>
+        <td>Most progressive reform</td>
+        <td>Code of Personal Status 1956</td>
+      </tr>
+      <tr>
+        <td><strong>Pakistan</strong></td>
+        <td>Codified with modifications</td>
+        <td>Muslim Family Laws Ordinance 1961</td>
+      </tr>
+      <tr>
+        <td><strong>Morocco</strong></td>
+        <td>Reformed family code</td>
+        <td>Mudawwana (2004 reform)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Turkey: The Complete Break</h3>
+
+  <p>Turkey under Atat&uuml;rk is the only Muslim-majority country to have completely replaced Islamic inheritance with a Western civil code. The 1926 adoption of the Swiss Civil Code introduced equal inheritance for sons and daughters, full testamentary freedom (subject to Swiss forced heirship), secular marriage and divorce, and no religious distinction in inheritance rights.</p>
+
+  <p>This is a case study in &ldquo;who wrote the defaults&rdquo; &mdash; Atat&uuml;rk replaced divine defaults with legislative defaults. The political will existed; the change was executed. The question for other systems is whether similar political will exists.</p>
+
+  <h2>Who Wrote the Defaults</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Default</th>
+        <th>Author</th>
+        <th>Date</th>
+        <th>Whose Interest</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="highlight">
+        <td><strong>Fixed inheritance shares</strong></td>
+        <td>God (Quran, divine revelation)</td>
+        <td>7th century CE (622&ndash;632)</td>
+        <td>Male heirs (2:1 ratio), but also guarantees female heirs shares that pre-Islamic custom denied entirely</td>
+      </tr>
+      <tr>
+        <td><strong>Hadanah custody order</strong></td>
+        <td>Jurists (fiqh, juristic reasoning)</td>
+        <td>8th&ndash;10th century CE</td>
+        <td>Young children (maternal care), shifting to father at age of discernment</td>
+      </tr>
+      <tr>
+        <td><strong>Wasiyyah 1/3 limit</strong></td>
+        <td>Prophet Muhammad (hadith)</td>
+        <td>7th century CE</td>
+        <td>Quranic heirs (prevents disinheritance by bequest)</td>
+      </tr>
+      <tr>
+        <td><strong>Modern codifications</strong></td>
+        <td>National parliaments</td>
+        <td>20th&ndash;21st century</td>
+        <td>Varies &mdash; some modernize (Tunisia, Turkey), some preserve (Saudi Arabia)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <blockquote>
+    <strong>The power of divine authorship:</strong> When God writes the defaults, they are structurally unassailable within the system. No legislature can override them (without claiming secular authority over divine law). No court can reinterpret them (without departing from the text). No individual can manipulate them (the wasiyyah is capped at 1/3 and cannot benefit heirs). Compare this to a family court system where the defaults are written by one party&rsquo;s counsel in an allocation judgment. The Islamic system, whatever its other features, makes manipulation of the default structure nearly impossible.
+  </blockquote>
+
+  <h2>Forced Heirship / Floor Mechanisms</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Floor</th>
+        <th>Mechanism</th>
+        <th>Can It Be Breached?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="highlight">
+        <td><strong>Quranic fixed shares</strong></td>
+        <td>Prescribed fractions for each heir class</td>
+        <td>No &mdash; divine mandate. Cannot be overridden by will, contract, or legislation within Islamic legal framework.</td>
+      </tr>
+      <tr>
+        <td><strong>Wasiyyah cap (1/3)</strong></td>
+        <td>Limits testamentary discretion</td>
+        <td>No &mdash; based on prophetic hadith with near-universal consensus (<em>ijma</em>).</td>
+      </tr>
+      <tr>
+        <td><strong>No bequest to an heir</strong></td>
+        <td>Prevents double-dipping and manipulation</td>
+        <td>No (Sunni); Yes, up to 1/3 (Shia).</td>
+      </tr>
+      <tr>
+        <td><strong>Mother's hadanah</strong></td>
+        <td>Custody right for young children</td>
+        <td>Can be lost by remarriage, but the right itself is structural.</td>
+      </tr>
+      <tr>
+        <td><strong>Father's wilayah</strong></td>
+        <td>Permanent legal guardianship</td>
+        <td>Survives divorce, mother&rsquo;s custody period, and relocation. Cannot be severed by court order in classical fiqh.</td>
+      </tr>
+      <tr>
+        <td><strong>Mu'sir respite</strong></td>
+        <td>Debtor unable to pay gets time, not prison</td>
+        <td>Quranic basis (2:280) &mdash; built-in ability-to-pay protection.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Anonymized Parallel</h2>
+
+  <p>In Islamic law, the inheritance system is complete, rigid, and resistant to manipulation by any individual party. No parent can disinherit a child. No testator can override the Quranic fractions. No court can rewrite the shares. The one-third wasiyyah is the only discretionary element, and it is capped and restricted.</p>
+
+  <p>The Islamic system has its own asymmetries (the 2:1 male-female ratio, the loss of <em>hadanah</em> upon remarriage). But the asymmetries are transparent, fixed, and known in advance. They are the defaults &mdash; written by divine authority, disclosed in the text, and applicable uniformly. They are not hidden in the fine print of an allocation judgment drafted by opposing counsel.</p>
 
   <p style="margin-top:3rem; text-align:center;">
     <a href="index.html" style="font-family:var(--font-sans); font-size:0.9rem;">&larr; Back to overview</a>
@@ -52,7 +475,7 @@
 
 <footer class="footer">
   <div class="container">
-    Legal Symmetries — A comparative law research project
+    Legal Symmetries &mdash; A comparative law research project
   </div>
 </footer>
 

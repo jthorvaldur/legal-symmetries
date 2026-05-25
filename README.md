@@ -19,15 +19,15 @@ Every legal system is a complete function: for every input state (alive/dead, ma
 | **Civil Law — Germanic** | Germany | 1 / 3 |
 | **Civil Law — Napoleonic** | France | 1 / 5 |
 | **Nordic** | Sweden | 1 / 5 |
-| **Islamic Law** | — | 0 / 6 |
-| **Other Traditions** | — | 0 / 3 |
-| **East Asian** | — | 0 / 3 |
-| **International** | — | 0 / 4 |
+| **Islamic Law** | Overview (5 schools) | 1 / 6 |
+| **Other Traditions** | Jewish, Hindu, Canon | 3 / 3 |
+| **East Asian** | Japan, China, South Korea | 3 / 3 |
+| **International** | ECHR, ICCPR, Hague, CRC | 4 / 4 |
 | **Historical** | — | 0 / 1 |
 | **Mixed Systems** | — | 0 / 3 |
-| **Dictionary Analysis** | — | 0 / 9 term groups |
+| **Dictionary Analysis** | 9 term groups complete | 9 / 9 |
 
-**Total: 4 / 35 jurisdictions researched**
+**Total: 13 / 35 jurisdictions + 9 / 9 dictionary groups researched**
 
 ## Six Types of Death
 
@@ -46,6 +46,12 @@ Every legal system is a complete function: for every input state (alive/dead, ma
 - **France:** Children cannot be disinherited (50-75% reserved). Napoleon's 1804 design is still actively defended — a 2021 amendment closed international forum-shopping.
 - **Sweden:** No imprisonment for child support non-payment. Debtors' prison abolished 1879. ~35% of children with separated parents live in alternating residence. Joint custody survives separation as the default.
 - **United States:** Domestic support obligations are the only category of debt with no discharge mechanism in American law. Title IV-D creates a 66% federal reimbursement incentive for enforcement.
+- **Islamic Law:** God wrote the defaults. Quranic fixed shares cannot be overridden by will (except 1/3 wasiyyah). No parent can disinherit a child. Built-in ability-to-pay protection predates Turner v. Rogers by 1,400 years (Quran 2:280).
+- **Japan:** The only developed democracy that until 2024 did NOT allow joint custody after divorce. One parent got everything — structurally identical to "parental death." Reform Act No. 33 of 2024 takes effect April 2026.
+- **South Korea:** Abolished male primogeniture in 1990. Constitutional Court struck down the hoju patrilineal headship system in 2005. 80.7% child support non-payment rate.
+- **Hindu Law:** The 2005 Hindu Succession Amendment made daughters equal coparceners — proof that even divine defaults yield to parliamentary political will.
+- **International:** The US is the only UN member state that has not ratified the Convention on the Rights of the Child. It is also the only developed democracy with a child support system (Title IV-D) that financially incentivizes enforcement regardless of ability to pay.
+- **Dictionaries:** English-language legal dictionaries have NO entries for continental forced heirship terms (Pflichtteil, réserve héréditaire, legitieme portie). The absence of the word is the absence of the protection.
 
 ## Dictionary Analysis
 
